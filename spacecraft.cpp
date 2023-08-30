@@ -1,15 +1,11 @@
 #include<bits/stdc++.h>
-
 using namespace std;
-
-
 
 /* directions:
 N- (0,1,0)
 E - (1,0,0)
 U -(0,0,1)
 */
-
 
 class spacecraft{
     private:
@@ -126,7 +122,6 @@ int main(){
         else if(c=='d') a.turn_vertically(false);
         else cout<<" REALLY !!"<<endl;
 
-        
         a.print();
         cout<<endl<<endl;
     }
